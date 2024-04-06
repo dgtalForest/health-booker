@@ -1,58 +1,85 @@
-# HealthBooker🧑‍⚕️
+<div id="top">
+<h1 align="center">HealthBooker 🧑‍⚕️</h1>
 
-<h3>Description :</h3> 
-This is a webapp where you can book an appointment with a doctor.
 
-👉[Click here](https://healthbooker.onrender.com/) to check out the app.
+<h3>📝 Description :</h3> 
+Welcome to our comprehensive healthcare platform! Our website offers a seamless experience for users and doctors alike. Sign up or log in to unlock a range of features. Easily browse through a list of available doctors, manage your profile, and submit queries effortlessly. Stay updated with notifications and enjoy secure access to your information. Aspiring doctors can apply through our user-friendly system. Book appointments with your preferred doctors and track their completion status. Admin features ensure smooth operations, including approval of doctor applications and user management. Rest assured, all data is stored securely. Join us to experience a new era of convenient and efficient healthcare interactions.
+
 <br/>
+
+---
+
+### 🌐 Link:
+
+
+### 🛠️ Tools and technologies used :
+
+<div align=center>
+
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5"/> </a>
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3" /> </a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript"/> </a>
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white&color=148dff" alt="react" /> </a>
+<a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Node.js-8A2BE2?style=for-the-badge&logo=Node.js&color=b3ffb0" alt="nodejs" /> </a>
+<a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&color=008712" alt="express"/> </a>
+<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb" /> </a>
+<a href="https://redux-toolkit.js.org/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="redux-toolkit" /> </a>
+
+</div>
+
+<br>
 
 ### 📃Features :
 
 <ul>
-<li>User can register and login.</li>
-<li>You can view all available doctors on the site.</li>
-<li>You can also update your profile.</li>
-<li>You can also send your queries to us from the contact section.</li>
-<li>You can view all your notifications in the notifications tab.</li>
-<li>There is also an admin managment system.</li>
-<li>You can only access your notications, profile, appointments, doctor application if you're logged in</li>
-<li>User can also apply for becoming a doctor on our site.</li>
-<li>User can book an appointment with the doctor of their own choice.</li>
-<li>Admin has the control to accept any user's request to become a doctor.</li>
-<li>Admin can also remove any user or doctor from the site.</li>
-<li>Doctor and Admin have the control to mark if the appointment is completed.</li>
-<li>User will recieve notification if their application is accepted or rejected.</li>
-<li>User and Doctor will recieve notification if their appointment is completed.</li>
-<li>Doctor will recieve notification if someone booked appointment with them.</li>
-<li>All the data will be stored on the database so there is no chance of losing you information.</li>
+  <li><strong>User Registration and Login:</strong> Enabling user registration and login functionality is the foundation of any user-oriented platform.</li>
+  <li><strong>View Available Doctors:</strong> Allowing users to easily view the list of available doctors helps them find the right medical professional for their needs.</li>
+  <li><strong>Update Profile:</strong> Providing users with the ability to update their profiles keeps their information accurate and up to date.</li>
+  <li><strong>Contact Section for Queries:</strong> Including a contact section for user queries enhances user engagement and customer support.</li>
+  <li><strong>Notifications Tab:</strong> A notifications tab helps users stay informed about updates, appointments, and application statuses.</li>
+  <li><strong>Admin Management System:</strong> An admin management system is crucial for overseeing users, appointments, and doctor applications.</li>
+  <li><strong>Access Control:</strong> Restricting access to certain sections like notifications, profile, appointments, and doctor applications to logged-in users ensures data privacy and security.</li>
+  <li><strong>Doctor Application:</strong> Allowing users to apply to become a doctor on the site expands the pool of medical professionals and adds value to the platform.</li>
+  <li><strong>Book Appointments:</strong> Enabling users to book appointments with their preferred doctors streamlines the process of accessing medical services.</li>
+  <li><strong>Admin Approval for Doctor Requests:</strong> Admin approval for doctor applications ensures that only qualified professionals are listed on the platform.</li>
+  <li><strong>User and Doctor Removal:</strong> Admin's ability to remove users or doctors from the site is crucial for maintaining the platform's integrity.</li>
+  <li><strong>Appointment Marking:</strong> Allowing doctors and admin to mark appointments as completed ensures proper record-keeping.</li>
+  <li><strong>Application and Appointment Notifications:</strong> Sending notifications to users, doctors, and admins about application statuses and appointment updates enhances communication.</li>
+  <li><strong>Data Storage and Security:</strong> Storing all data in a database ensures data integrity, security, and easy retrieval of information.</li>
 </ul>
 
 <hr/>
 
-### To run the project on your local machine
+<p align="right"><a href="#top">Back to Top</a></p>
+
+### Steps to run the project on your local machine
 
 <ol>
-<li>Download the project from the git repository</li>
-<li>Add .env file in root directory for the backend which contains</li>
+<li>Fork this repository</li>
+<li>Open terminal or command prompt on your local machine. Run the following command to clone the repository:</li>
 
 ```
-PORT=5000
-MONGO_URI=YOUR_OWN_MONGODB_URL
-JWT_SECRET=YOUR_JWT_SECRET
-```
-<li>Add .env file in client directory for the frontend which contains</li>
-
+git clone https://github.com/your-username/your-repo.git
 ```
 
-REACT_APP_SERVER_DOMAIN=http://127.0.0.1:5000/api
-REACT_APP_CLOUDINARY_BASE_URL=https://api.cloudinary.com/v1_1/{CLOUD_NAME}/image/upload
-REACT_APP_CLOUDINARY_CLOUD_NAME=YOUR_OWN_CLOUDINARY_CLOUD_NAME
-REACT_APP_CLOUDINARY_PRESET=YOUR_OWN_CLOUDINARY_PRESET
-```
-**Note:** Replace the **{CLOUD_NAME}** with your own cloudinary cloud name
+Replace **your-username** with your GitHub username and **your-repo** with the name of your repository.
 
-<li>To run the backend, go to root directory in the terminal and execute: npm start</li>
-<li>To run the frontend, open a new terminal and run 'cd client/' to go to client directory and execute: npm start</li>
+<li>Open the project and rename <strong>.env.example</strong> files to <strong>.env</strong> in both client and root directory.</li>
+
+<li>Add your own environment variables to these both files.</li>
+
+<li>To run the backend, open a new terminal and execute:</li>
+
+```
+npm start
+```
+
+<li>To run the frontend, open a new terminal and run 'cd client/' to go to client directory and execute: </li>
+
+```
+npm start
+```
+
 </ol>
 
 ### To access the admin dashboard
@@ -63,6 +90,10 @@ REACT_APP_CLOUDINARY_PRESET=YOUR_OWN_CLOUDINARY_PRESET
 <li>Register on the website and go to your MongoDB and manually change the 'isAdmin' field of the account you want to make admin in the DB to 'true' and then log in back on the site</li>
 <li>Now you will be able to access the admin dashboard</li>
 </ol>
+
+---
+
+<p align="right"><a href="#top">Back to Top</a></p>
 
 ### Home page
 
@@ -112,21 +143,24 @@ REACT_APP_CLOUDINARY_PRESET=YOUR_OWN_CLOUDINARY_PRESET
 
 <img src="./client/src/images/notifications.png" alt='notifications'/>
 
-<hr/>
+---
 
-### Tools and technologies used :
-
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="35" height="35"/> </a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="35" height="35"/> </a>
-<a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
-<a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://github.com/MarioTerron/logo-images/raw/master/logos/expressjs.png" alt="express"  height="20"/> </a>
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
-<a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a>
 <br/>
 
-### Connect with me :
+### 🛡️ License
 
-<a href="https://twitter.com/avinashdunna" target="blank"><img align="center" src="https://img.icons8.com/color/48/000000/linkedin.png" alt="Avinash905 | LinkedIn" height="35" width="35" /></a>
-<a href="https://twitter.com/avinashdunna" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="avinashdunna" height="30" width="40" /></a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+Terms and conditions for use, reproduction and distribution are under the [MIT License](https://opensource.org/license/mit/).
+
+<br/>
+
+---
+
+<h3 align="center"> Give it a 🌟 if you 🧡 this repository </h3>
+
+---
+
+<p align="right"><a href="#top">Back to Top</a></p>
+
+</div>

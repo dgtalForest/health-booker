@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import jwt_decode from "jwt-decode";
 import axios from "axios";
 import toast from "react-hot-toast";
-
+import "../styles/user.css";
 
 const Appointments = () => {
   const [appointments, setAppointments] = useState([]);
@@ -34,7 +34,7 @@ const Appointments = () => {
 
   const complete = async (ele) => {
     try {
-      const { data } = await toast.promise(
+      await toast.promise(
         axios.put(
           "/appointment/completed",
           {
@@ -96,7 +96,9 @@ const Appointments = () => {
                       <tr key={ele?._id}>
                         <td>{i + 1}</td>
                         <td>
-                          {ele?.doctorId?.firstname + " " + ele?.doctorId?.lastname}
+                          {ele?.doctorId?.firstname +
+                            " " +
+                            ele?.doctorId?.lastname}
                         </td>
                         <td>
                           {ele?.userId?.firstname + " " + ele?.userId?.lastname}
